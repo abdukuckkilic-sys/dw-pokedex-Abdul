@@ -14,4 +14,5 @@ let imageString = baseurl + getIdFromUrl(pokeurl) + '.png'
 console.log(imageString)
 
 
+
 // <img="${baseurl + getIdFromUrl(pokeurl) + '.png'}"
