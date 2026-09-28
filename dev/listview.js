@@ -103,7 +103,7 @@ function renderDetail(id) {
         .then(function (pokemon) {
 
             let color = typeColors[pokemon.types[0].type.name]
-            // first two moves
+
             let move1 = pokemon.moves[0].move.name
             let move2 = pokemon.moves[1].move.name
 
