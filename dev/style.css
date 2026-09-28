@@ -109,3 +109,101 @@ main {
     font-size: 0.8rem;
     font-weight: normal;
 }
+
+.detail-header {
+    position: relative;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.detail-header h1 {
+    text-transform: capitalize;
+}
+
+.id {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-weight: bold;
+}
+
+.back {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.detail-img {
+    width: 150px;
+    height: 150px;
+}
+
+.detail-main {
+    background: white;
+    border-radius: 15px 15px 0 0;
+    padding: 20px;
+    margin: 0;
+}
+
+.types {
+    text-align: center;
+}
+
+.type {
+    color: white;
+    padding: 4px 15px;
+    border-radius: 15px;
+    font-size: 12px;
+    text-transform: capitalize;
+    margin: 0 4px;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.about-grid {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 13px;
+}
+
+
+
+.stat-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+.stat-name {
+    width: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.stat-val {
+    width: 30px;
+}
+
+.bar {
+    flex: 1;
+    background: #eee;
+    height: 6px;
+    border-radius: 10px;
+}
+
+.fill {
+    height: 6px;
+    border-radius: 10px;
+}
